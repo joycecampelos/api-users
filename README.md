@@ -1,4 +1,3 @@
-
 # API de Gerenciamento de Usuários
 
 API REST desenvolvida em Node.js utilizando Express.js para gerenciamento de usuários. A API permite realizar operações de criação, leitura, atualização e exclusão de usuários.
@@ -29,8 +28,6 @@ API REST desenvolvida em Node.js utilizando Express.js para gerenciamento de usu
     "password": "abc!Rdsfsaas@"
   }
   ```
-
-
 
 ---
 
@@ -81,7 +78,7 @@ API REST desenvolvida em Node.js utilizando Express.js para gerenciamento de usu
 ### Instalação
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/Dudubor/ProjetoFinal.git
+   git clone https://github.com/joycecampelos/api-users
    ```
 2. Acesse o diretório do projeto:
    ```bash
@@ -99,12 +96,10 @@ API REST desenvolvida em Node.js utilizando Express.js para gerenciamento de usu
    (rodar Typescript) ou ```npm run start``` (rodar JS).
 
  - **URL**: http://localhost:3000
- 
 
 ---
 
-
-## 🧪 Testes (Jest)
+## Testes (Jest)
 
 - Implementação e testes de integração do UserService. 
 
@@ -116,7 +111,6 @@ API REST desenvolvida em Node.js utilizando Express.js para gerenciamento de usu
 
 ###### -  Certifique-se de ter o Node.js e o npm instalados.
 
-
 ---
 
 ## Principais Testes
@@ -127,8 +121,6 @@ API REST desenvolvida em Node.js utilizando Express.js para gerenciamento de usu
 
 **Validar Dados Inválidos:**
 - Testa se o serviço rejeita dados inválidos, como e-mails mal formatados.
-
-
 
 **Listar Usuários:**
 - Verifica se a lista de usuários contém os dados esperados.
@@ -155,9 +147,7 @@ Testa se o usuário é removido corretamente do banco.
 
 ![Saída](src/docs/images/npm%20run%20test.jpg)
 
-
-
-## 🧪 Testes (Coverage)
+## Testes (Coverage)
 
 ## Executar Testes
 
@@ -171,7 +161,6 @@ Testa se o usuário é removido corretamente do banco.
 
 1. Após rodar o comando, um diretório chamado ``` coverage/``` será criado na raiz do projeto.
 
-
 2. O relatório detalhado estará disponível no arquivo HTML dentro desse diretório:
 
   ```bash
@@ -182,7 +171,6 @@ Testa se o usuário é removido corretamente do banco.
 
 ## Exemplo de Saída
 ![Coverage](src/docs/images/coverage.jpg)
-
 
 ## Contribuição
 
