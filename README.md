@@ -82,7 +82,7 @@ API REST desenvolvida em Node.js utilizando Express.js para gerenciamento de usu
    ```
 2. Acesse o diretório do projeto:
    ```bash
-   cd seu-repositorio
+   cd api-users
    ```
 3. Instale as dependências:
    ```bash
